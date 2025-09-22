@@ -1,0 +1,4 @@
+[debug] [fp_scala-build] Classpath dependencies List()
+[debug] [fp_scala-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'fp_scala-build' to '/Users/luzm/git/compilerdesign/codes_in_notes/fp_scala/project/.bloop/fp_scala-build.json'
+[success] Generated .bloop/fp_scala-build.json
