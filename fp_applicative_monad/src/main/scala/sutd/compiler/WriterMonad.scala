@@ -9,7 +9,8 @@ object WriterMonad {
         def mappend: A => A => A
     }
 
-    given listMonoid[A]: Monoid[List[A]] = new Monoid[List[A]] {
+    // given listMonoid[A]: Monoid[List[A]] = new Monoid[List[A]] {
+    given [A] => Monoid[List[A]] {
         def mempty: List[A] = Nil
         def mappend: List[A] => List[A] => List[A] =
             (l1: List[A]) => (l2: List[A]) => l1 ++ l2
